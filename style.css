@@ -1,0 +1,98 @@
+/*
+Theme Name: The7 Child
+Theme URI: http://hypercoder.co
+Author: HyperCoder
+Author URI: http://hypercoder.co
+Description: 
+Version: 1.0.0
+Template: dt-the7
+*/
+
+.smile_icon_list li .icon_list_icon {
+    width: 2em !important;
+    height: 2em !important;
+    line-height: 2em !important;
+}
+.smile_icon_list li.icon_list_item {
+    margin: 0px 0 15px !important;
+}
+.smile_icon_list.left li .icon_list_connector {
+    left: 0.34em !important;
+}
+.margin-bottom-15 > ul.smile_icon_list > li {
+    margin-bottom: 15px !important;
+}
+.smile_icon_list.left li .icon_description {
+    vertical-align: top !important;
+}
+.vc_row.vc_column-gap-15>.vc_column_container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#bottom-bar .wf-td p {
+    text-align: center;
+    font-size: 18px;
+}
+#main {
+    padding-bottom: 0px;
+}
+.brook_content_carousel .slick-prev {
+    left: 10px !important;
+}
+.brook_content_carousel .slick-next{
+	right: 10px !important;
+}
+.brook_content_carousel .slick-dots {
+    bottom: 40px !important;
+}
+.brock_bottom_contant_form span.wpcf7-list-item {
+    margin: 0 20px 0 0;
+    font-size: 20px;
+}
+.brock_bottom_contant_form span.wpcf7-list-item input[type="checkbox"]{
+	margin: 0;
+	padding: 0;
+    height: 13px;
+    width: 13px;
+}
+.brock_bottom_contant_form span.wpcf7-form-control-wrap.your-email input,
+.brock_bottom_contant_form span.wpcf7-form-control-wrap.your-phone input{
+	padding: 5px;
+}
+.brock_bottom_contant_form span.wpcf7-form-control-wrap.your-message textarea{
+	height: 160px;
+	padding: 5px;
+}
+.brock_bottom_contant_form span.wpcf7-form-control-wrap.your-email input:focus,
+.brock_bottom_contant_form span.wpcf7-form-control-wrap.your-phone input:focus,
+.brock_bottom_contant_form span.wpcf7-form-control-wrap.your-message textarea:focus{
+	outline: none;
+}
+.brock_bottom_contant_form{
+	color: #000 !important;
+}
+
+
+.brock_bottom_contant_form input[type="submit"], 
+.brock_bottom_contant_form .nsu-submit{
+    color: #ffffff;
+    background-color: #000 !important;
+    background: #000 !important;
+    background: -webkit-linear-gradient(135deg,#000 30%,#000 100%) !important;
+    background: linear-gradient(135deg,#000 30%,#000 100%) !important;
+}
+ 
+
+
+#page button.button:hover, 
+#page a.button:hover, 
+#page .dt-form button:hover, 
+#page .widget .dt-form .dt-btn:hover, 
+#page input[type="button"]:hover, 
+#page input[type="reset"]:hover, 
+#page input[type="submit"]:hover, 
+#page .nsu-submit:hover {
+    background: #000;
+    background: -webkit-linear-gradient(135deg,#000 30%,#000 100%);
+    background: linear-gradient(135deg,#000 30%,#000 100%);
+}
